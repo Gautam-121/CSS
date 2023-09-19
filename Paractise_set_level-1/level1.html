@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Property</title>
+    <!-- Internal Styling -->
+    <link rel="stylesheet" href="./level1.css">
+    <style>
+        h1 {
+            color: rgb(148, 59, 59);
+        }
+
+        /* Group Selector */
+        #head5, #head6{
+            color: hotpink;
+        }
+
+        /* decendant selector */
+        #first p { 
+            color: darkcyan;
+        }
+
+    </style>
+</head>
+<body>
+    <!-- Inline Styling -->
+    <h1 style="color: blue;">This is the Heading</h1>
+    <p style="color: red;">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid, nulla.</p>
+
+    <div id="first">
+        <p>Add Only Decendant child</p>
+    </div>
+
+    <p>Dont add this decentand</p>
+
+    <p id="para1">Para1</p>
+    <p class="para2">Para2</p>
+
+    <h5 id="head5">Heading5</h5>
+    <h4>Heading 4</h4>
+    <h6 id="head6">Heading6</h6>
+    
+</body>
+</html>

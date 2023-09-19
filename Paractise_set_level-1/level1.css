@@ -1,0 +1,25 @@
+ancestor -- apke parent unke parent unke parent 
+decendant -- apke bacche unke bacche unke bacche 
+
+/* Element Selector */
+h1 {
+    color: aquamarine;
+}
+p {
+    color : gold
+}
+
+/* Universal Selector */
+/* *{
+    color: chocolate;
+} */
+
+/* Id Selector */
+#para1{
+    color: hotpink;
+}
+
+/* class selector */
+.para2{
+    color: cornflowerblue;
+}
