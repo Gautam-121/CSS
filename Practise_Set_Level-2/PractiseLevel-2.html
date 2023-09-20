@@ -5,12 +5,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BackGround-Color</title>
     <style>
+        /* class selector */
         .box{
             height: 50px;
             width: 50px;
             margin: 5px;
         }
 
+        /* id selector */
         #box1{
             background-color: indianred;
             color: rgb(255, 255, 255 , 1);
@@ -21,9 +23,41 @@
         #box3{
             background-color: coral;
         }
+        #back_img{
+            height: 500px;
+            width: 300px;
+            background-color: antiquewhite;
+            background-image: url(./parker-coffman-YMC38-rroxY-unsplash.jpg);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        #back_att{
+            height: 800px;
+            width: 600px;
+            background-image: url(https://www.kindpng.com/picc/m/114-1146845_png-50-px-logos-png-transparent-png.png);
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        #visibility{
+            height: 100px;
+            width: 100px;
+            background-color: rgb(175, 33, 33 , 0.8);
+            visibility:hidden; 
+            color: white;
+            padding: 10px 50px 0 50px;
+        }
     </style>
 </head>
 <body>
+
+    <div id="back_img"></div>
+
+    <div id="back_att"></div>
+
+    <div id="visibility">Visible</div>
+
     <div class="box" id="box1">Box1</div>
     <div class="box"id="box2">Box2</div>
     <div class="box" id="box3">Box3</div>
