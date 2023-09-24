@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        .box{
+            text-align: center;
+            background-color: teal;
+            height: 100px;
+            width: 100px;
+            margin-top: 10px;
+        }
+        #box1{
+            /* by Default Position Static hoti hai isliye isme left right bottom top z-index work nhi krta hai*/
+            position: static;
+        }
+        #box2{
+            /* wo khudke position se relative hota hai jb use left right top bottom sarkhao to */
+            position: relative;
+            left: 50px;
+        }
+        #box3{
+            /* jaise hi position absolute lo wo page se bahar nikl jata hai aur uski jgh me usse niche wala box aa jata hai aur left right top bottom do to wo corner ke respect me move hota hai*/
+            position: absolute;
+            top:10px;
+            left:100px
+        }
+        #box4{
+            /* jaise hi position fixed krlo wo page se bahar nikl jata hai aur
+            uski jgh me usse niche wala box aa jata hai sirf absolute aur isme ek frk hai ye page ke saat scroll nhi hota fixed rhta hai  */
+            position: fixed;
+            left:200px;
+            top:150px
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">Static</div>
+    <div class="box" id="box2">Relative</div>
+    <div class="box" id="box3">Absolute</div>
+    <div class="box" id="box4">Fixed</div>
+    <div class="box" id="general">General</div>
+    <div class="box" id="general">General</div>
+    <div class="box" id="general">General</div>
+    <div class="box" id="general">General</div>
+    <div class="box" id="general">General</div>
+    <div class="box" id="general">General</div>
+    <div class="box" id="general">General</div>
+    <div class="box" id="general">General</div>
+    <div class="box" id="general">General</div>
+    <div class="box" id="general">General</div>
+    <div class="box" id="general">General</div>
+    <div class="box" id="general">General</div>
+    <div class="box" id="general">General</div>
+    <div class="box" id="general">General</div>
+    <div class="box" id="general">General</div>
+    <div class="box" id="general">General</div>
+</body>
+</html>

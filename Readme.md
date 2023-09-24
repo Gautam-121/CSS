@@ -92,3 +92,40 @@ display:none --> if ui se koi box delete ho gya mtlab wo gayab ho gya but abhibh
 Font-Sizing : Commanly Used For Setting Font Sizes Adaptively
 
 (REM)--> Facilatting Dynamic sizing relative to root element (root in basically in our case body)
+
+
+VW/VH --> mere screen me jo view display ho rha hai wo mera width mera khlata hai view width(vw) and view height khlata hai (view height)
+
+kisibhi cheez ki size hme sirf parent se nhi pure viewport se define krni hai
+
+100vh --> 100% of viewport height
+100vw --> 100% of viewport width
+
+
+# Position Property
+
+Position By Default (Static) : Element follow the normal document flow (top , right , bottom , left , z-index would not work)
+
+static me box page ke saat chipka rhta hai
+
+Position : Relative :- Relative to itself (right : 10px) to khudki actual postion jo thi uski relative me right : 10px ho gya
+
+Relative me bhi box page ke saat chipka rhta hai
+
+Position : Absolute :- Absolute apni position dekhta hi nhi wo hmesha page ke corner se start hota hai
+
+right : 50px
+bottom : 50px  50px 50px move krega from page ka coner , parent se mtlab nhi , khud se mtlab nhi , corner se wo moved kr dega
+
+Absolute dete hi wo page root uper aa jata hai yani page se bahar aa jata hai aur uski jagah usse niche wala box le leta hai
+
+ye page se bahar hone ke wajah se page ke under jo rhenge uspe chadte dikhenge
+
+Position : Fixed 
+Fixed as same as absolute lekin isme scroll hai wo bhi nhi chalata 
+yani ye page se bahar ho jata hai phir page ka contain uper niche kro ye whi fixed rhta hai
+navigation serach bar me ye use krte hai
+
+all same as absolute only diffrent ye page ke saat scroll nhi hoga apni position me hi rhega
+
+learn About Z-index
