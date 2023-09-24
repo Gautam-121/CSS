@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Level-5</title>
+    <style>
+        *{margin: 0; padding: 0;}
+        .box{
+            height: 100px;
+            width: 100px;
+            background-color: slategrey;
+            margin: 5px;
+
+            /* by default display block */
+            /* display: inline; */
+            display: inline-block;
+        }
+        #box1{
+            /* visibility: hidden; */
+            display: none;
+        }
+        #first{
+            height: 100px;
+            width: 200px;
+            font-size: 10px;
+            background-color: red;
+        }
+        #second{
+            /* 50% of 100px => 50px */
+            width: 50%;
+            height: 60%;
+            /* font size 2em double of parent  */
+            font-size: 2em;
+            background-color: royalblue;
+        }
+    </style>
+</head>
+<body>
+    <div class="box" id="box1">Box1</div>
+    <div class="box" id="box2">Box2</div>
+    <div class="box" id="box3">Box3</div>
+
+    <div id="first">
+        First Div
+        <div id="second">
+            Second Div
+        </div>
+    </div>
+</body>
+</html>

@@ -71,3 +71,24 @@ italic , oblique , normal
 
 # font-family
 add font family of 
+
+# Level-5
+
+# Display Property
+Block Element --> it take full screen of width and start with next line
+
+Inline Element --> It take content width and it start from same line (but ou cant set heighr and width easily)
+
+Inline-Block --> inline-block kya bolta hai , muzhe block ki property bhi apne hisib set set krna hai to app dikhao inline hi lekin mai block ke property bhi change kr skta hu
+
+display:none --> if ui se koi box delete ho gya mtlab wo gayab ho gya but abhibhi wo size le rha hai to display:none krne se wo suze bhi nhi lega 
+
+# Relative Units
+
+(Percentage) --> Facinatting Dynamic Sizing Relative to there Parents , if there is no parent then it take it body as parent
+
+(EM)--> Sized Relative to the parent element's font size
+
+Font-Sizing : Commanly Used For Setting Font Sizes Adaptively
+
+(REM)--> Facilatting Dynamic sizing relative to root element (root in basically in our case body)
