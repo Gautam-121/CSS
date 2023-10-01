@@ -129,3 +129,84 @@ navigation serach bar me ye use krte hai
 all same as absolute only diffrent ye page ke saat scroll nhi hoga apni position me hi rhega
 
 learn About Z-index
+
+
+# Flex
+
+# display : flex
+
+FlexBox is One-Dimentional Layout method for arrenging item in row or column
+
+container --> ko display : flex , to uske under ke jo child hai wo row or column wise flexible ho jati hai (by default row me flexible hoti hai)
+
+# flex-direction
+
+flex-direction: row , row-reverse , column , column-reverse
+
+
+# justify-content -- boxes align on x-axis
+
+justify-content : flex-start --> start with start of row
+
+flex-end : start with end of row
+
+center : arrenged at center
+
+space-between --> start from extreame left end and take same spaces between each item
+
+space- evenly --> left se same space right se same space
+
+space-around --> left same right same then left righr same
+
+# flex-wrap
+
+if box conatiner ke size je jada size hote jayenge to wo next row me na jake shrink hote hai use shrink na hoke dusre row me dalne ke liye flex-wrap property use krte hai
+
+no-wrap
+wrap
+wrap-reverese
+
+# Align0-item --> boxes align on y-axis
+
+align-item : flex start
+align-item : flex-end
+align-item : center
+
+# if apko apke child ko center of div lana hai
+
+display : flex
+justify-content : center
+align-item : center
+
+# align-content --> acchese smjna --> ye y-axis me apply hota hai
+
+just like justify-content
+
+# Each child ke upper konsi property lga skte
+
+# align-self
+align-self (across y-axis hme kisi perticular box me lagana hai to) :  flex-start , flex-end , center
+
+# flex-shrink :- jb flex-wrap nhi diya ho to baki item ke respect me ye double rate se shrink ho , adhe rate se shrink ho ya shrink ho hi na
+
+flex-shrink : 1 (by default 1 hoti hai sb jitna hoge mai bhi utna hounga)
+
+flex-shrink : 2 (bakiyo se double rate me mai shrink hounga  , 3 and 4)
+
+flex-shrink : 0.5 (bakiyo se aadhe rate me shrink hounga baki log 20% shrink ho rhe to mai 10% shrink hounga)
+
+flex-shrink : 0 (baki kitna bhi shrink ho jaye
+mai shrink nhi hounga)
+
+# Flex-Groww (By default value 0 hoti hai isme jisti width and ho=eight box ki define hone ke baad wo space chod dete hai to flex-groww se hm batate hai ki baki box ke respect me ye kitna grow hona chahiye)
+
+flex-grow : 1 (suppose baki ko flex-grow : 1 diya hai)
+
+flex-grow : 2  (box-2 ko flex-grow : 2 diya hai box-2 bakiyo ke barabar me do guna grow hoga)
+
+# Order
+
+
+
+
+
